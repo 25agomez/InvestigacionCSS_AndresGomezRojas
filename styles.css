@@ -1,0 +1,41 @@
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3px 15px rgb(0, 174, 255),
+    0 0 0 2px rgb(255, 255, 255),
+    10px 10px 10px rgba(0, 0, 0, 0.769);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+iframe {
+    margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow:
+    0px 0px 10px 5px rgba(24, 182, 226, 0.799);
+}
+.ejemplo-text-shadow{
+    margin-top: 30px;
+    text-shadow: rgb(18, 245, 215) 2px 2px 2px,
+                 rgb(0, 0, 0) 4px 4px 4px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(233, 233, 233);
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+.ejemplo-transition-duration {
+  width: 400px;
+  height: 100px;
+  background-color: rgb(88, 17, 110);
+  border-radius: 10px;
+  text-align: center;
+  transition-duration: 5s, 2s;
+  transition-property: margin-left, background-color;
+}
+.ejemplo-transition-duration:hover {
+  margin-left: 300px;
+  background-color: rgb(105, 31, 225);
+}
